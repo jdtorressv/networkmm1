@@ -23,11 +23,15 @@ public class Phase1 {
     // implementation.
     		int size = q.size();
     		System.out.println("Size of queue-" + size);
-	/*
-		public double getNext() {
- 		return  Math.log(1-rand.nextDouble())/(-lambda);
-		}
-	*/
+	       
+	
 	}
+// This function uses inverse transform sampling 
+	public static double getNext() 
+		{
+			double lambda = 0.5;
+			Random rand = new Random(123456789);
+			return  Math.log(1-rand.nextDouble())/(-lambda);
+                }
 
 }
