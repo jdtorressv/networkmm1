@@ -26,7 +26,9 @@ public class Phase1 {
 	       
 	
 	}
-// This function uses inverse transform sampling 
+/* This function uses inverse transform sampling to generate 
+   exponentially distributed random variables from uniformly 
+   generated ones. */ 
 	public static double getNext() 
 		{
 			double lambda = 0.5;
