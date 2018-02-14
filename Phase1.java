@@ -23,7 +23,11 @@ public class Phase1 {
     // implementation.
     		int size = q.size();
     		System.out.println("Size of queue-" + size);
-
+	/*
+		public double getNext() {
+ 		return  Math.log(1-rand.nextDouble())/(-lambda);
+		}
+	*/
 	}
 
 }
